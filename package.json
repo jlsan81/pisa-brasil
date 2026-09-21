@@ -1,1 +1,1 @@
-{"scripts":{"dev":"next dev","build":"next build","start":"next start"},"dependencies":{"next":"latest","react":"latest","react-dom":"latest"},"devDependencies":{}}
+{"scripts":{"dev":"next dev","build":"next build","start":"next start","db:init":"node scripts/init-db.js"},"dependencies":{"better-sqlite3":"latest","next":"latest","react":"latest","react-dom":"latest"},"devDependencies":{}}
