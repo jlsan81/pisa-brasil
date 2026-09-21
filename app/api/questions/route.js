@@ -1,0 +1,1 @@
+import {getQuestions} from "../../../lib/db";export const dynamic="force-dynamic";export async function GET(request){const collection=new URL(request.url).searchParams.get("collection")||"pisa";return Response.json(getQuestions(collection));}
